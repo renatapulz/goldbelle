@@ -1,0 +1,68 @@
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(255, 230, 234, 0.6);
+    
+  }
+  
+  p, li {
+    color: #444;
+    font-size: 14px;
+  }
+  
+  /* Barra de navegação */
+  header, .navbar {
+    background-color: #fbe6e5;
+  }
+  
+  #nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  #logo {
+    width: 110px;
+    border: 1px solid #bf8a39;
+    border-radius: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #bf8a39;
+    border-color: #bf8a39;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e2b572;
+    border-color: #e2b572;
+  }
+  
+  .nav-link{
+    font-size: 1.2em;
+  }
+  .iconecadastre{
+    background: none;
+    border:none;
+    outline: none;
+  }
+  
+  .iconecadastre img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+  }
+.container{
+      text-align: center;
+      color: #bf8a39
+      ;
+      
+}
+.btn-primary {
+    background-color: #bf8a39;
+    border-color: #bf8a39;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e2b572;
+    border-color: #e2b572;
+  }
+  
