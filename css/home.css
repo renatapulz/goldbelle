@@ -1,3 +1,7 @@
+body {
+  background-color: rgba(255, 230, 234, 0.6);
+}
+
 /* Slider */
   
 .container-fluid {
@@ -46,3 +50,28 @@
   .carousel-indicators .active {
     background-color: #65DAF9;
   }
+
+/* CARDS */
+.imgCard {
+  margin-top: 20px;
+}
+
+.tituloDestaques {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #bf8a39
+  ;
+}
+
+.preco {
+  font-size: 1.2em;
+}
+
+.btn {
+  background-color: #bf8a39;
+}
+
+.card img {
+  height: 300px;
+  width: 350px;
+}
