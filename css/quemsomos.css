@@ -6,19 +6,16 @@ main {
     background-color: rgba(255, 230, 234, 0.6);
   }
 
-.container {
-    
-    margin: 0px 20px;
-    margin-top: 8%;
-}
 .row{
     margin-bottom: 5%;
+}
+.container {
+    padding-top: 5%;
 }
 
 .textoQS {
     padding-top: 10%;
 }
-
 .textoQS h2 {
     color: #bf8a39;
     padding-bottom: 20px;
