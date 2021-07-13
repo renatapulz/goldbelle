@@ -8,6 +8,10 @@ body {
     padding: 0;
   }
   
+  #mainSlider{
+    height: 500px;
+  }
+
   #mainSlider .carousel-inner, #mainSlider .carousel-item {
     height: 90vh;
   }
@@ -17,14 +21,12 @@ body {
   }
   
   #mainSlider .carousel-caption h2 {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 30px;
   }
   
   #mainSlider .carousel-caption p {
     font-size: 22px;
-    font-weight: 300;
-    margin-bottom: 100px;
     color: #FFF;
   }
   
@@ -51,6 +53,12 @@ body {
     background-color: #65DAF9;
   }
 
+  .carrossel{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+
 /* CARDS */
 .imgCard {
   margin-top: 20px;
@@ -75,3 +83,4 @@ body {
   height: 300px;
   width: 350px;
 }
+
