@@ -17,7 +17,7 @@ body {
   
   /* Barra de navegação */
   header, .navbar {
-    background-color: #fbe6e5;
+    background-color: #FDDFDF;
   }
   
   #nav-container {
@@ -28,6 +28,7 @@ body {
   #logo {
     width: 110px;
     border: 1px solid #bf8a39;
+    border-radius: 25px;
   }
   
   .navbar-brand {
