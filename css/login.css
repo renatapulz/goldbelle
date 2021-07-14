@@ -1,0 +1,76 @@
+body {
+    background-color: rgba(255, 230, 234, 0.6);
+    font-size: 16px;
+  }
+
+.login {
+    width: 40%;
+    margin-top: 40px;
+}
+
+.h4 {
+    margin-bottom: 40px;
+}
+
+.criarconta {
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+/* FOOTER */
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #fbe6e5;
+    margin-top: 30px;
+  }
+  
+  .espaco1 .imglogo {
+    margin: 0;
+    width: 80px;
+    height: auto;
+  }
+  
+  .espaco2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+  }
+  
+  .espaco2 p {
+    width: 100%;
+  }
+  
+  .espaco3 {
+    text-align: right;
+  }
+  
+  .espaco3 img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
+  
+  footer p {
+    margin: 0;
+    color: #bf8a39;
+  }
+  
+  /* WHATS */
+  .whatsapp-link {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1000;
+  }
+  
+  .imgwhatsapp {
+    margin-top: 16px;
+    width: 60px;
+    height: 60px;
+  }
