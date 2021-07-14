@@ -1,5 +1,3 @@
-
-#formcadastro{
-    width: 800px;
-    margin: 0 auto;
+#formcadastro textarea{
+    width: 100%;
 }
