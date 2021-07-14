@@ -11,6 +11,13 @@ body {
 .h4 {
     margin-bottom: 40px;
 }
+.esquecisenha {
+    margin-bottom: 20px;
+}
+
+.esquecisenha a {
+    color: #bf8a39;
+}
 
 .criarconta {
     border-radius: 20px;
