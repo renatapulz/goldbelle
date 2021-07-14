@@ -44,4 +44,4 @@ let chamaValidaCPF = (param) => {
     if (chamaValidaCPF(cpf)) {
       document.getElementById('formcadastro').innerHTML = "Cadastro enviado!";
     }
-  }
+
