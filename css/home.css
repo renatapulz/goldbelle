@@ -1,5 +1,6 @@
 body {
   background-color: rgba(255, 230, 234, 0.6);
+  font-size: 16px;
 }
 
 /* Slider */
@@ -30,34 +31,12 @@ body {
     color: #FFF;
   }
   
-  .main-btn {
-    background-color: #65DAF9;
-    color: #FFF;
-    text-transform: uppercase;
-    width: 200px;
-    height: 60px;
-    padding: 10px 20px;
-    border-radius: 30px;
-    border: 3px solid transparent;
-    transition: .5s;
-  }
-  
-  .main-btn:hover {
-    text-decoration: none;
-    color: #FFF;
-    background-color: transparent;
-    border-color: #3EC1D5;
-  }
-  
-  .carousel-indicators .active {
-    background-color: #65DAF9;
-  }
-
   .carrossel{
     width: 100%;
     height: 500px;
     object-fit: cover;
   }
+
 
 /* CARDS */
 .imgCard {
@@ -67,8 +46,8 @@ body {
 .tituloDestaques {
   font-size: 2em;
   margin-bottom: 20px;
-  color: #bf8a39
-  ;
+  color: #bf8a39;
+  margin-top: 20px;
 }
 
 .preco {
@@ -84,3 +63,78 @@ body {
   width: 350px;
 }
 
+
+/* NEWSLETTER */
+#news-area{
+ margin: 20px;
+ padding: 20px;
+ background-color: rgba(182, 74, 92, 0.6);
+ color: white;
+}
+.botaonews{
+  margin: 10px;
+  background-color: #bf8a39;
+  border-color: #bf8a39;
+  color: white;
+}
+
+
+/* FOOTER */
+.rodape {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #fbe6e5;
+  margin-top: 30px;
+}
+
+.espaco1 .imglogo {
+  margin: 0;
+  width: 80px;
+  height: auto;
+}
+
+.espaco2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.espaco2 p {
+  width: 100%;
+}
+
+.espaco3 {
+  text-align: right;
+}
+
+.espaco3 img {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+footer p {
+  margin: 0;
+  color: #bf8a39;
+}
+
+
+
+/* WHATS */
+.whatsapp-link {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1000;
+}
+
+.imgwhatsapp {
+  margin-top: 16px;
+  width: 60px;
+  height: 60px;
+}
