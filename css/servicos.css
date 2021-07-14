@@ -1,15 +1,9 @@
-/* .divServicos img {
-    height: 350px;
-    margin-top: 40px;
-} */
-
 .imgBannerRel img{
     object-fit: cover;
     height: 500px;
     width: 100%;
 }
    
-
 .tituloServicos {
     color: #bf8a39;
     padding-bottom: 15px;
