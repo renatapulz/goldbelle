@@ -1,10 +1,10 @@
 // VALIDACAO CPF
 
-const validar = (param) => {
-    let check = valida(param);
-    let elemento = document.getElementById("cpf");
- 
-    if (check == true){
+let Valida = (param) => {
+   let check = validar(param);
+   let elemento = document.getElementById("cpf");
+
+   if (check == true){
       elemento.classList.remove("border-danger");
       elemento.classList.add("border-success");
       return true;
@@ -13,8 +13,8 @@ const validar = (param) => {
    elemento.classList.add("border-danger");
    return false;
 }
- 
-const valida = (strCPF) => {
+
+let validar = (strCPF) => {
    let Soma;
    let Resto;
    Soma = 0;
@@ -38,10 +38,10 @@ const valida = (strCPF) => {
    return true;
 }
 
-const submitForm = () => {
+ const submitForm = () => {
    const cpf = document.getElementById('cpf').value;
 
-   if (validar(cpf)) {
-      document.getElementById('formcadastro').innerHTML = "Cadastro enviado!";
+   if (Valida(cpf)) {
+     document.getElementById('formcadastro').innerHTML = "Cadastro enviado!";
    }
-}
+ }
